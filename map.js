@@ -21,7 +21,7 @@ $(document).on('mousemove', function(e){
 
 // Mobile Drop Down Menu Start //
 
-document.getElementById("states-dropdown").onchange = function() {
+document.getElementById("states-dropdown").onchange = function(dropdown) {
     if(this.value === "alabama") {
         alabamaFunctionMobile();
     } 
